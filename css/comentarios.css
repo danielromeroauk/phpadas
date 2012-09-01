@@ -1,0 +1,49 @@
+body {
+	background: #000;
+	background-image: url("../img/hd_wallpaper1.jpg");
+	color: #ccc;
+}
+body, input[type=text], input[type=submit], textarea {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 16px;
+}
+.comentario {
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px rgba(255,255,255,0.6);
+	margin-bottom: 1em;
+	padding: 0.5em;
+	text-align: justify;
+	width: 100%;
+}
+.fecha {
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+}
+footer {
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: right;
+	margin-right: 2em;
+}
+input[type=text], textarea {
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 30em;
+}
+.persona {
+	color: lightgreen;
+	display: block;
+}
+section {
+	display: inline-block;
+	margin: 0 2em 3em 1em;
+	vertical-align: top;
+	width: 31em;
+}
+textarea {
+	border-radius: 5px;
+	height: 4em;
+}
